@@ -1,0 +1,46 @@
+.box-radio-input input[type="radio"]{
+  display:none;
+}
+
+.box-radio-input input[type="radio"] + span{
+  display:inline-block;
+  background:none;
+  border:1px solid #ffffff;
+  padding:0px 10px;
+  text-align:center;
+  height:64px;
+  width:100px;
+  line-height:33px;
+  font-weight:500;
+  cursor:pointer;
+}
+.box-radio-input input[class="method"] + span{
+  line-height:66px;
+}
+
+.box-radio-input input[type="radio"]:checked + span{
+  background:#ffffff;
+  color:#000000;
+}
+
+#payment-container {
+  padding-left:80px;
+  padding-top:50px;
+}
+
+.center {
+  display:flex;
+  justify-content:center;
+  margin:80px;
+}
+
+.btn {
+  height:64px;
+  width:122px;
+  font-size:15px;
+  font-weight:500;
+  border:1px solid #ffffff;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+}

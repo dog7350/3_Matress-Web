@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+#TankInfo_Container {
+    width:100%;
+}
+
+#TankInfo_Content {
+    width:100%;
+    text-align:center;
+}
+
+#TankInfo_Board {
+    position:relative;
+    display:inline-block;
+    width:1611px;
+}
+
+#TankInfo_Table {
+    text-align:center;
+    border:2px solid #d5d5d5;
+    border-collapse:collapse;
+    background-color: rgba(67, 67, 67, 0.8);
+}

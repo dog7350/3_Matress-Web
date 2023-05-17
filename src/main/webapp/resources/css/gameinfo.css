@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#GameInfo_Container {
+    width:100%;
+}
+
+#GameInfo_Content {
+    width:100%;
+    text-align:center;
+}
+
+#GameInfo_Board {
+    position:relative;
+    display:inline-block;
+}
+
+#GameInfo_Table {
+    text-align:center;
+    border:2px solid #d5d5d5;
+    border-collapse:collapse;
+    background-color: rgba(67, 67, 67, 0.8);
+}
+
+.GameInfo_Bar {
+    text-align: left;
+}
+
+.GameInfo_Title {
+    font-size:20pt;
+    font-weight: bold;
+}
+
+.GameInfo_Exp {
+    font-size:15pt;
+}

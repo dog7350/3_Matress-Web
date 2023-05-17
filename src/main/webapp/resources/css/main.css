@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+#Main_Base {
+    width:100%;
+    text-align: center;
+}
+
+#Main_Content {
+    display: inline-block;
+    margin-bottom: 10px;
+    width:1500px;
+}
+
+/* Main Base */
+
+#Main_Top {
+    width:100%;
+    margin-bottom: 20px;
+}
+
+/* TOP */
+
+#Main_Bottom {
+    margin-top:10px;
+    width:100%;
+}
+
+#Bottom_Left {
+    display: inline-block;
+    width: 1250px;
+    float: left;
+}
+
+#Left_Top {
+    width:100%;
+    background-color: rgba(67, 67, 67, 0.8);
+}
+
+#Left_Bottom {
+    margin-top: 10px;
+    width:100%;
+    background-color: rgba(67, 67, 67, 0.8);
+}
+
+#Bottom_Right {
+    display: inline-block;
+    margin-left:40px;
+    width: 200px;
+    float: left;
+    background-color: rgba(67, 67, 67, 0.8);
+}
+
+/* Bottom */
+
+.Main_Content_Title {
+    font-family: 궁서;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.Main_Content_Table {
+    width: 100%;
+}

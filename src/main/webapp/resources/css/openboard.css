@@ -1,0 +1,127 @@
+/* openboard.css */
+@charset "UTF-8";
+
+#OpenBoard_Container {
+    width:100%;
+    min-height:610px;
+    height:100%;
+}
+
+.OpenBoard_Content {
+    width:100%;
+    height:100%;
+    text-align:center;
+}
+
+.OpenBoard_Board {
+    position:relative;
+    display:inline-block;
+    width:1500px;
+}
+
+.OpenBoard_Table {
+    width:1500px;
+    text-align:center;
+    border:2px solid #d5d5d5;
+    border-collapse:collapse;
+    background-color: rgba(67, 67, 67, 0.8);
+}
+.OpenBoard_Table thead {
+    color:black;
+}
+/* openboard list */
+
+.Board_Top {
+    position:relative;
+    display:inline-block;
+    width:1100px;
+    height:80px;
+    border-bottom:2px solid #d5d5d5;
+    background-color: rgba(67, 67, 67, 0.8);
+}
+.Board_Top > * {
+    position:relative;
+    display:inline-block;
+    margin-top:10px;
+}
+#Board_C_Title {
+    font-size:20pt;
+    font-weight:bold;
+}
+
+.Board_Body {
+    position:relative;
+    display:inline-block;
+    text-align:left;
+    width:1100px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-bottom:10px;
+    border-bottom:2px solid #d5d5d5;
+    background-color: rgba(67, 67, 67, 0.8);
+}
+#Board_C_Content {
+    font-size:15pt;
+}
+
+/* BoardContent */
+
+.ReplyForm {
+    position:relative;
+    display:inline-block;
+    text-align:left;
+    width:1100px;
+}
+
+.Reply_Body {
+    position:relative;
+    display:inline-block;
+    width:1100px;
+    text-align:left;
+    margin-top:5px;
+    margin-bottom:5px;
+    border:2px solid #d5d5d5;
+    background-color: rgba(67, 67, 67, 0.8);
+}
+.Reply_head {
+    display:inline-block;
+}
+.Reply_btn {
+    display:inline-block;
+    float:right;
+}
+.Reply_content {
+    border-top:1px solid #d5d5d5;
+}
+
+/* Reply */
+
+.AnswerDiv {
+    position:relative;
+    display:inline-block;
+    margin-top:20px;
+    width:1100px;
+    height:450px;
+    text-align:center;
+    background-color: rgba(67, 67, 67, 0.8);
+}
+.Answer {
+    display:inline-block;
+    overflow:auto;
+    width:100%;
+    height:100%;
+    font-size:15pt;
+    text-align:center;
+}
+.ADMIN_A {
+    float:left;
+}
+.USER_A {
+    float:right;
+}
+
+/* Q&A */
+#Board_PNPage {
+    font-size:20pt;
+    font-weight: bold;
+}

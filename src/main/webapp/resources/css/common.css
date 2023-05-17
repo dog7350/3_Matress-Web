@@ -1,0 +1,109 @@
+body {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  margin: 0px;
+  min-width: 960px;
+}
+
+.navbar {
+  background-color: #333;
+  font-family: Arial;
+  margin: 0;
+}
+
+.navbar::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.navbar div {
+  display: inline-block;
+  position: relative;
+}
+
+.home {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 0 -10px 0;
+}
+
+.login,
+.join,
+.logout {
+  float: right;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 13.5px 15px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+.dropdown:hover .dropbtn,
+.drop .dropbtn,
+.navbar .navbtn:hover {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  padding-left: 0;
+  z-index: 1;
+  min-width: 100%;
+  margin: 0;
+}
+
+.dropdown-content li {
+  width: 100%;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+
+.dropbtn a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .navbtn {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
